@@ -1,0 +1,243 @@
+// src/Data/Stocks.js
+export const sampleStocks = [
+  {
+    id: 1,
+    symbol: "AAPL",
+    name: "Apple Inc.",
+    price: "213.49",
+    open: "211.29",
+    close: "213.49",
+    marketCap: "3.67T",
+    volume: "60M",
+    change: 3.6,
+    peRatio: "38.67",
+    earnings: "6.31",
+    dividendYield: "0.47%",
+    technicalAnalysis: {
+      movingAverage50: "210.00",
+      movingAverage200: "200.00",
+      rsi: 68,
+    },
+    news: [
+      {
+        headline: "Apple launches new iPhone 14",
+        date: "2025-03-15",
+        link: "https://www.apple.com/news/iphone14",
+        summary: "Apple has unveiled the new iPhone 14...",
+      },
+      {
+        headline: "Apple Reports Record Earnings for Q1 2025",
+        date: "2025-01-25",
+        link: "https://www.apple.com/news/q12025",
+        summary: "Apple has reported strong earnings...",
+      },
+    ],
+  },
+  {
+    id: 2,
+    symbol: "GOOGL",
+    name: "Alphabet Inc. (Google)",
+    price: "165.49",
+    marketCap: "1.1T",
+    volume: "32M",
+    open: "163.12",
+    close: "165.49",
+    change: 2.73,
+    peRatio: "25.00",
+    earnings: "6.50",
+    dividendYield: "N/A",
+    technicalAnalysis: {
+      movingAverage50: "170.00",
+      movingAverage200: "160.00",
+      rsi: 45,
+    },
+    news: [
+      {
+        headline: "Google Introduces New AI Tools for Businesses",
+        date: "2025-03-12",
+        link: "https://www.google.com/news/ai-tools",
+        summary: "Google has launched a new suite of AI tools...",
+      },
+      {
+        headline: "Alphabet Reports Mixed Q4 Earnings",
+        date: "2025-02-10",
+        link: "https://www.google.com/news/q42025",
+        summary: "Alphabet’s Q4 results showed mixed performance...",
+      },
+    ],
+  },
+  {
+    id: 3,
+    symbol: "AMZN",
+    name: "Amazon.com Inc.",
+    price: "197.95",
+    marketCap: "1.6T",
+    open: "197.45",
+    close: "197.95",
+    volume: "38M",
+    change: 4.19,
+    peRatio: "59.20",
+    earnings: "53.64",
+    dividendYield: "N/A",
+    technicalAnalysis: {
+      movingAverage50: "190.00",
+      movingAverage200: "180.00",
+      rsi: 72,
+    },
+    news: [
+      {
+        headline: "Amazon Expands Its Delivery Network",
+        date: "2025-03-14",
+        link: "https://www.amazon.com/news/delivery-network",
+        summary:
+          "Amazon is expanding its delivery network to reduce shipping times...",
+      },
+      {
+        headline: "Amazon Acquires Cloud Robotics Company",
+        date: "2025-02-22",
+        link: "https://www.amazon.com/news/acquisition-cloud-robotics",
+        summary:
+          "Amazon has made a major acquisition to strengthen its robotics division...",
+      },
+    ],
+  },
+  {
+    id: 4,
+    symbol: "MSFT",
+    name: "Microsoft Corporation",
+    price: "388.56",
+    open: "379.62",
+    close: "388.56",
+    marketCap: "2.4T",
+    volume: "20M",
+    change: 9.59,
+    peRatio: "32.05",
+    earnings: "8.15",
+    dividendYield: "0.80%",
+    technicalAnalysis: {
+      movingAverage50: "380.00",
+      movingAverage200: "370.00",
+      rsi: 63,
+    },
+    news: [
+      {
+        headline: "Microsoft Unveils New Azure Cloud Features",
+        date: "2025-03-18",
+        link: "https://www.microsoft.com/azure-new-features",
+        summary:
+          "Microsoft has launched new cloud features aimed at businesses...",
+      },
+      {
+        headline: "Microsoft Completes Acquisition of LinkedIn",
+        date: "2025-02-15",
+        link: "https://www.microsoft.com/news/linkedin-acquisition",
+        summary: "Microsoft has completed its acquisition of LinkedIn...",
+      },
+    ],
+  },
+  {
+    id: 5,
+    symbol: "TSLA",
+    name: "Tesla Inc.",
+    price: "249.98",
+    marketCap: "1.2T",
+    volume: "100M",
+    open: "247.44",
+    close: "249.98",
+    change: 9.29,
+    peRatio: "95.20",
+    earnings: "9.42",
+    dividendYield: "N/A",
+    technicalAnalysis: {
+      movingAverage50: "240.00",
+      movingAverage200: "230.00",
+      rsi: 75,
+    },
+    news: [
+      {
+        headline: "Tesla Announces New EV Battery Technology",
+        date: "2025-03-10",
+        link: "https://www.tesla.com/news/ev-battery-tech",
+        summary:
+          "Tesla has revealed a breakthrough in electric vehicle battery technology...",
+      },
+      {
+        headline: "Tesla CEO Elon Musk to Host a Global EV Summit",
+        date: "2025-02-28",
+        link: "https://www.tesla.com/news/elon-musk-global-ev-summit",
+        summary:
+          "Elon Musk is set to host a summit discussing the future of electric vehicles...",
+      },
+    ],
+  },
+  {
+    id: 6,
+    symbol: "NFLX",
+    name: "Netflix Inc.",
+    price: "918.00",
+    marketCap: "250B",
+    volume: "5M",
+    change: 27.57,
+    peRatio: "48.30",
+    earnings: "10.44",
+    open: "901.46",
+    close: "918.00",
+    dividendYield: "N/A",
+    technicalAnalysis: {
+      movingAverage50: "910.00",
+      movingAverage200: "900.00",
+      rsi: 65,
+    },
+    news: [
+      {
+        headline: "Netflix Launches Interactive Show Feature",
+        date: "2025-03-11",
+        link: "https://www.netflix.com/news/interactive-show-feature",
+        summary:
+          "Netflix has launched a new feature for interactive storytelling...",
+      },
+      {
+        headline: "Netflix Announces Record Subscriber Growth",
+        date: "2025-01-25",
+        link: "https://www.netflix.com/news/record-subscriber-growth",
+        summary:
+          "Netflix reports significant growth in global subscriptions...",
+      },
+    ],
+  },
+  {
+    id: 7,
+    symbol: "NVDA",
+    name: "NVIDIA Corporation",
+    price: "600.00",
+    marketCap: "1.1T",
+    volume: "1.5M",
+    change: 2.3,
+    open: "118.61",
+    close: "121.61",
+    peRatio: "65.8",
+    earnings: "18.52",
+    dividendYield: "N/A",
+    technicalAnalysis: {
+      movingAverage50: "590.00",
+      movingAverage200: "570.00",
+      rsi: 80,
+    },
+    news: [
+      {
+        headline: "NVIDIA Unveils New AI Chip",
+        date: "2025-03-16",
+        link: "https://www.nvidia.com/news/new-ai-chip",
+        summary:
+          "NVIDIA has introduced its latest AI chip designed to revolutionize data processing...",
+      },
+      {
+        headline: "NVIDIA Acquires Software Company to Boost Gaming Division",
+        date: "2025-02-14",
+        link: "https://www.nvidia.com/news/acquisition-software-company",
+        summary:
+          "NVIDIA has acquired a software company to enhance its gaming platform...",
+      },
+    ],
+  },
+];
